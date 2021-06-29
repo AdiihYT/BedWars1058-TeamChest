@@ -1,0 +1,8 @@
+name: BedWars1058-TeamChest
+main: eu.adiih.teamchest.TeamChestPlugin
+author: AdiihYT
+website: adiih.eu
+version: 1.2.5
+api-version: 1.13
+description: Adds team enderchests to BedWars1058 Minigame
+softdepend: [BedWars1058]

@@ -1,0 +1,18 @@
+teamchest-gui:
+  rows: 3
+  title: "Team Chest"
+team-enderchest:
+  enabled: true
+  permission-required: false
+  permission: "bw.teamchest"
+teamchest-item:
+  enabled: true
+  permission-required: true
+  permission: "bw.teamchest.item"
+  default-slot: 8
+  moveable: false
+  material: "ENDER_CHEST"
+  display-name: "&6&lTeam Chest"
+  lore:
+    - "&fRight click to view"
+    - "&fyour team's chest"
