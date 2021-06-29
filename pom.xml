@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>eu.adiih.teamchest</groupId>
     <artifactId>BedWars1058-TeamChest</artifactId>
     <version>1.2.2</version>
     <build>
@@ -25,6 +25,10 @@
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
+        <repository>
+            <id>andrei1058-repo</id>
+            <url>http://repo.andrei1058.com/releases/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -32,6 +36,12 @@
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
             <version>1.16.1-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.andrei1058.bedwars</groupId>
+            <artifactId>bedwars-api</artifactId>
+            <version>21.2</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
